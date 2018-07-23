@@ -1,0 +1,24 @@
+h1{ align-content: center;
+    color: red;
+    background-color: chartreuse;
+    font-style: italic;
+    font-size: 20pt
+}
+p{
+    color:blue;
+    font-style: italic;
+    font-size: 15pt;
+}
+
+.mySample{
+    background-color: pink;
+    align-content: center;
+    border: 5px;
+    color: green;
+}
+.myTable{
+    background-color: orange;
+    align-content: right;
+    border: 10px;
+    color: black;
+}

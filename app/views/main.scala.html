@@ -1,0 +1,43 @@
+@(content:Html)
+
+<hmtl>
+    <head>
+        <link rel="stylesheet" href="/assets/stylesheets/bootstrap3/css/bootstrap.css">
+        <title>BIS Coff. 2020 Web Site</title>
+    </head>
+    <body bgcolor="#fff8dc" text="#8a2be2" link="blue" alink="red" vlink="gray">
+
+        <div class="container-fluid">
+
+             <div class="row" >
+                <div class="col-sm-12">
+                    @header()
+                </div>
+            </div>
+            <br><BR>
+            <div class="row" >
+                <div class="col-sm-2">
+                    @menu() <br><br><br>
+                </div>
+                <div class="col-sm-10">
+                    <div class="row" >
+
+                        <div class="col-sm-10" style='background-image: url("/assets/images/Coffee-Background.jpg");width: 100%'>
+                            <h5 style="font-size:10pt;  font-weight: 500;"> &nbsp; </h5>
+                        </div>
+                    </div>
+                    @content
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12" style="background-color: gray">
+                    @footer()
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+
+</hmtl>

@@ -1,0 +1,26 @@
+<br>
+<h1>เพิ่มข้อมูลสินค้า (Candy) </h1>
+<div class="container-fluid" style="background-color: #b2dba1">
+<form action="/postCandy" method="post">
+    <table class="table table-stripe">
+        <tr>
+            <td>Id</td>
+            <td><input type="text" name="id" size="10" maxlength="5" required="required"></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" name="name" size="50" maxlength="45" required="required"></td>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td><input type="number" name="price" size="10" maxlength="8" required="required"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" class="btn btn-success" value="Save">
+                <input type="reset" class="btn btn-danger" value="Cancel">
+            </td>
+        </tr>
+    </table>
+</form>
+</div>
